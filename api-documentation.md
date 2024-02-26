@@ -8,20 +8,20 @@ Documenting APIs is vital as it provides clear instructions and usage guidelines
 
 ## Prerequisites
 
-- Web API Project using .NET 6.0 or higher with OpenAPI enabled
+1. Web API Project using .NET 6.0 or higher with OpenAPI enabled
 
 ## Required Nuget Packages
 
-- [Swashbuckle.AspNetCore](https://www.nuget.org/packages/Swashbuckle.AspNetCore/)
-- [Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer](https://www.nuget.org/packages/Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer)
+1. [Swashbuckle.AspNetCore](https://www.nuget.org/packages/Swashbuckle.AspNetCore/)
+2. [Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer](https://www.nuget.org/packages/Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer)
 
 ## Provide OpenAPI Documentation in Existing Project
 
 First step is to register some services in the existing project. There are several extension methods which are used in our approach.
 
-- [ConfigureApiVersioning.cs (optional)](../assets/ConfigureApiVersioning.cs)
-- [ConfigureSwaggerSwashbuckle.cs](../assets/ConfigureSwaggerSwashbuckle.cs)
-- [ConfigureSwaggerSwashbuckleOptions.cs](../assets/ConfigureSwaggerSwashbuckleOptions.cs)
+1. [ConfigureApiVersioning.cs (optional)](../assets/ConfigureApiVersioning.cs)
+2. [ConfigureSwaggerSwashbuckle.cs](../assets/ConfigureSwaggerSwashbuckle.cs)
+3. [ConfigureSwaggerSwashbuckleOptions.cs](../assets/ConfigureSwaggerSwashbuckleOptions.cs)
 
 We will now modify the Program.cs class with the extension methods from above.
 
