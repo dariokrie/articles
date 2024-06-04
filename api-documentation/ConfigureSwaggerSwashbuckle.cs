@@ -3,7 +3,7 @@ using Microsoft.Extensions.Options;
 using Swashbuckle.AspNetCore.Filters;
 using Swashbuckle.AspNetCore.SwaggerGen;
 
-namespace Dr.TicketShop.ApiHost.Extensions;
+namespace YOUR-Namespace;
 
 /// <summary>
 /// Configure the Swagger generator.
