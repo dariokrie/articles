@@ -2,7 +2,7 @@ using Microsoft.Extensions.Options;
 using Microsoft.OpenApi.Models;
 using Swashbuckle.AspNetCore.SwaggerGen;
 
-namespace Dr.TicketShop.ApiHost.Extensions;
+namespace YOUR-NAMESPACE;
 
 /// <summary>
 /// Configures the Swagger generation options.
@@ -14,8 +14,8 @@ public class ConfigureSwaggerSwashbuckleOptions : IConfigureOptions<SwaggerGenOp
         var info = new OpenApiInfo()
         {
             Title = "TicketShop API",
-            Description = "Manage API endpoints of TicketShop",
-            Contact = new OpenApiContact { Name = "Dario Krieger", Email = "Dario.Krieger@basenet.ch" },
+            Description = "Manage API endpoints of [Project name]",
+            Contact = new OpenApiContact { Name = "Example User", Email = "example@user.com" },
         };
 
         options.SwaggerDoc("v1", info);
